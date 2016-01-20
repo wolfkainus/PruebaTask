@@ -10,7 +10,7 @@ users = []
     user_name: Faker::Internet.user_name,
     email: "client_#{i}@mail.com",
     password: 'password',
-    remote_avatar_url: 'http://lorempixel.com/400/200/sports/'
+    photo: 'foto'
   )
 end
 
