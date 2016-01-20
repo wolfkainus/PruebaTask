@@ -19,7 +19,7 @@ projects = []
 
 50.times do |r|
   projects << Project.create(
-    title: Faker::Hacker.say_something_smart,
+    title: Faker::Internet.domain_word,
     user: users.sample
   )
 end
